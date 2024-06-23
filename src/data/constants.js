@@ -7,11 +7,11 @@ export const Bio = {
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    github: "https://github.com/vivekgithuby",
+    github: "https://github.com/vivek-iin",
     resume:
       "https://vivek-resume-portfolio.netlify.app/",
     linkedin: "https://www.linkedin.com/in/vivek-yadav-2a0883241/",
-    // twitter: "#",
+  
     insta: "https://www.instagram.com/vivek_iin?igsh=YzljYTk1ODg3Zg==",
   };
   
@@ -103,7 +103,7 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
-       ,
+       
         {
           name: "MongoDB",
           image:
@@ -133,30 +133,12 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
         },
-        // {
-        //   name: "Jenkins",
-        //   image:
-        //     "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
-        // },
+       
         {
           name: "Nginx",
           image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
         },
-        // {
-        //   name: "Grafana",
-        //   image:
-        //     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-        // },
-    //     {
-    //       name: "Kubernetes",
-    //       image:
-    //         "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-    //     },
-    //     {
-    //       name: "Prometheus",
-    //       image:
-    //         "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Prometheus_software_logo.svg/1200px-Prometheus_software_logo.svg.png",
-    //     },
+       
       ],
      },
     
@@ -199,11 +181,7 @@ export const Bio = {
           image:
             "https://static-00.iconduck.com/assets.00/postman-icon-497x512-beb7sy75.png",
         },
-        // {
-        //   name: "Adobe XD",
-        //   image:
-        //     "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-        // },
+       
         {
           name: "Figma",
           image:
@@ -247,27 +225,9 @@ export const Bio = {
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
     },
-    // {
-    //   id: 2,
-    //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    //   role: "Android Developer Intern",
-    //   company: "Rudraksha Welffare Foundation",
-    //   date: "June 2021 - Oct 2021",
-    //   desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
-    //   skills: [
-    //     "Android",
-    //     "Java",
-    //     "Kotlin",
-    //     "XML",
-    //     "Node Js",
-    //     "Cloud Firestore",
-    //     "Firebase",
-    //     "Figma",
-    //   ],
-    //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-    // },
+   
     {
-      id: 3,
+      id: 2,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
       role: "Fullstack ",
       company: "Remote Job",
@@ -287,23 +247,9 @@ export const Bio = {
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
      },
-    // {
-    //   id: 4,
-    //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    //   role: "Android Developer",
-    //   company: "DSC KIIT",
-    //   date: "Nov2021 - Present",
-    //   desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    //   skills: [
-    //     "Leadership",
-    //     "Mobile Application Development",
-    //     "Kotlin",
-    //     "XML",
-    //     "Figma",
-    //   ],
-    // },
+   
     {
-      id: 5,
+      id: 3,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
       role: "Open Source Contributor ",
       company: "GirlScript Summer of Code",
@@ -318,7 +264,7 @@ export const Bio = {
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
       school: "Indira Gandhi National Tribal University, Amarkantak , Madhya Pradesh",
       date: "Oct 2023 - Sep 2025",
-      // grade: "8.41 CGPA",
+      
       desc: "I am currently pursuing a Bachelor's degree in Computer Science at Indira Gandhi National Tribal University, Amarkantak , Madhya Pradesh.  I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others , where I am learning and working on exciting projects with a team of talented developers.",
       degree: "Bachelor of Computer Applications - BCA, Computer Science",
     },
@@ -327,7 +273,7 @@ export const Bio = {
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "Harihar Singh Academy, Varanasi, Uttar Pradesh",
       date: "Apr 2020 - Apr 2022",
-      // grade: "88.2%",
+      
       desc: "I completed my class 12 high school education at Harihar Singh Academy, Varanasi, Uttar Pradesh where I studied Science with Computer Science.",
       degree: "CBSE(XII), Science with Computer",
     },
@@ -336,87 +282,16 @@ export const Bio = {
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "Navneeta Kunwar Public School , Varanasi",
       date: "Apr 2019 - Apr 2020",
-      // grade: "92.3%",
+    
       desc: "I completed my class 10 education at Public, Varanasi, where I studied Science with Computer Application.",
       degree: "CBSE(X), Science with Computer",
     },
   ];
   
   export const projects = [
-    // {
-    //   id: 11,
-    //   title: "DecisionHub",
-    //   date: "Jan 2024 - Dec 2023",
-    //   description:
-    //     "A Rule Builder application “Decision Hub” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
-    //   image:
-    //     "https:vivekgithuby",
-    //   tags: [
-    //     "React Js",
-    //     "PostgressSQL",
-    //     "Node Js",
-    //     "Express Js",
-    //     "Redux",
-    //     "React Flow",
-    //   ],
-    //   category: "web app",
-    //   github: "vivekgithuby",
-    //   webapp: "https://decisionhub.netlify.app/",
-    // },
-    // {
-    //   id: 9,
-    //   title: "Trackify",
-    //   date: "Jun 2023 - Jul 2023",
-    //   description:
-    //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    //   image:
-    //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    //   tags: [
-    //     "Docker",
-    //     "AWS",
-    //     "DuckDNS",
-    //     "Eslint",
-    //     "Husky",
-    //     "CI/CD",
-    //     "React Js",
-    //     "MongoDb",
-    //     "Node Js",
-    //     "Express Js",
-    //     "Redux",
-    //   ],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Trackify",
-    //   webapp: "https://trackify-management.netlify.app/",
-    // },
-    // {
-    //   id: 0,
-    //   title: "Podstream",
-    //   date: "Apr 2023 - May 2023",
-    //   description:
-    //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    //   image:
-    //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Podstream",
-    //   webapp: "https://podstream.netlify.app/",
-    //   member: [
-    //     {
-    //       name: "Rishav Chanda",
-    //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //       github: "https://github.com/rishavchanda/",
-    //     },
-    //     {
-    //       name: "Upasana Chaudhuri",
-    //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //       github: "https://github.com/upasana0710",
-    //     },
-    //   ],
-    // },
+    
     {
-      id: 1,
+      id: 0,
       title: "Vexa",
       date: "Oct 2022 - Jan 2023",
       description:
@@ -432,51 +307,12 @@ export const Bio = {
         "NodeMailer",
       ],
       category: "web app",
-      github: "https://github.com/vivekgithuby",
-      webapp: "https://vexa-app.netlify.app/",
+      github: "https://github.com/vivek-iin",
+      webapp: "#",
     },
-    // {
-    //   id: 2,
-    //   title: "Brain Tumor Detection",
-    //   date: "Jan 2023 - Mar 2023",
-    //   description:
-    //     "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
-    //   image:
-    //     "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    //   category: "machine learning",
-    //   github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    //   webapp: "https://brain-tumor.netlify.app/",
-    //   member: [
-    //     {
-    //       name: "Rishav Chanda",
-    //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-    //       github: "https://github.com/rishavchanda/",
-    //     },
-    //     {
-    //       name: "Upasana Chaudhuri",
-    //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-    //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-    //       github: "https://github.com/upasana0710",
-    //     },
-    //   ],
-    // },
-    // {
-    //   id: 3,
-    //   title: "Buckoid",
-    //   date: "Dec 2021 - Apr 2022",
-    //   description:
-    //     "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
-    //   image:
-    //     "https://camo.githubusercontent.com/3ad28aa710d18525f1fc87de056ed53c706d09979589bfd5a773df36653bad38/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    //   tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-    //   category: "android app",
-    //   github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    //   webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
-    // },
+    
     {
-      id: 10,
+      id: 1,
       title: "Job Finding App",
       date: "Jun 2023 - Jul 2023",
       description:
@@ -485,11 +321,11 @@ export const Bio = {
         "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
       tags: ["React Native", "JavaScript", "Axios"],
       category: "android app",
-      github: "https://github.com/vivekgithuby",
-      webapp: "https://github.com/vivekgithuby",
+      github: "https://github.com/vivek-iin",
+      webapp: "#",
     },
     {
-      id: 4,
+      id: 2,
       title: "Whatsapp Clone",
       date: "Jul 2021",
       description:
@@ -498,11 +334,11 @@ export const Bio = {
         "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
       tags: ["React Js", "Firebase", "Firestore", "Node JS"],
       category: "web app",
-      github: "https://github.com/vivekgithuby",
-      webapp: "https://github.com/vivekgithuby",
+      github: "https://github.com/vivek-iin",
+      webapp: "#",
     },
     {
-      id: 5,
+      id: 3,
       title: "Todo Web App",
       date: "Jun 2021",
       description:
@@ -511,24 +347,12 @@ export const Bio = {
         "https://camo.githubusercontent.com/84ac6ab6f378348ef28d8184062b7e9e3511a1252ae3966eaa49e8e998f732a7/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
       tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
       category: "web app",
-      github: "https://github.com/vivekgithuby",
-      webapp: "https://github.com/vivekgithuby",
+      github: "https://github.com/vivek-iin",
+      webapp: "#",
     },
-    // {
-    //   id: 6,
-    //   title: "Breaking Bad",
-    //   date: "Jun 2021",
-    //   description:
-    //     "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
-    //   image:
-    //     "https://camo.githubusercontent.com/937774368308a82419f53dd6eeb4a8675780e119636488b4e3cfe5d34859a72a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
-    //   tags: ["React Js", "API", "Axios", "Node JS"],
-    //   category: "web app",
-    //   github: "https://github.com/rishavchanda/Breaking-Bad",
-    //   webapp: "https://breaking-bad-webapp.netlify.app",
-    // },
+   
     {
-      id: 7,
+      id: 4,
       title: "Quiz App",
       date: "Dec 2020 - Jan 2021",
       description:
@@ -537,11 +361,11 @@ export const Bio = {
         "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
       tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
       category: "android app",
-      github: "https://github.com/vivekgithuby",
-      webapp: "https://github.com/vivekgithuby",
+      github: "https://github.com/vivek-iin",
+      webapp: "#",
     },
     {
-      id: 8,
+      id: 5,
       title: "Face Recognition",
       date: "Jan 2021",
       description:
@@ -550,8 +374,8 @@ export const Bio = {
         "https://dontrepeatyourself.org/media/face-recognition-with-python-dlib-and-deep-learning_cezKZBj.png",
       tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
       category: "machine learning",
-      github: "https://github.com/vivekgithuby",
-      webapp: "https://github.com/vivekgithuby",
+      github: "https://github.com/vivek-iin",
+      webapp: "#",
     },
   ];
   

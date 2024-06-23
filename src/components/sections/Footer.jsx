@@ -2,9 +2,9 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import {
+  GitHub,
   Instagram,
   LinkedIn,
-  // Twitter,
 } from "@mui/icons-material";
 
 const FooterContainer = styled.div`
@@ -93,9 +93,9 @@ const Footer = () => {
         </Nav>
         <SocialMediaIcons>
           
-          {/* <SocialMediaIcon href={Bio.twitter} target="display">
-            <Twitter />
-          </SocialMediaIcon> */}
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GitHub />
+          </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedIn />
           </SocialMediaIcon>
