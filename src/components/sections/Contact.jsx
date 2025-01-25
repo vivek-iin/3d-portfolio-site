@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
 
@@ -90,11 +90,11 @@ const ContactInputMessage = styled.textarea`
     border: 1px solid ${({ theme }) => theme.primary};
   }
 `;
-const ContactButton = styled.input`
+const ContactButton = styled.button`
   width: 100%;
-  text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
+  background: ${({ disabled }) =>
+    disabled ? "gray" : "hsla(271, 100%, 50%, 1)"};
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -102,18 +102,23 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
 `;
 
 const Contact = () => {
   const form = useRef();
+  const [isLoading, setIsLoading] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsLoading(true);
+
     emailjs
       .sendForm(
-        "service_namyz5g",
-        "template_1p6cgek",
+        "service_namyz5g", // Replace with your service ID
+        "template_1p6cgek", // Replace with your template ID
         form.current,
-        "jDxu5WIzweSxogu9g"
+        "jDxu5WIzweSxogu9g" // Replace with your user/public key
       )
       .then(
         (result) => {
@@ -121,19 +126,19 @@ const Contact = () => {
           form.current.reset();
         },
         (error) => {
-          alert(error.text);
+          alert("Failed to send message, please try again!");
         }
-      );
+      )
+      .finally(() => {
+        setIsLoading(false);
+      });
   };
+
   return (
     <Container id="Contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc
-          style={{
-            marginBottom: "40px",
-          }}
-        >
+        <Desc style={{ marginBottom: "40px" }}>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
         <ContactForm ref={form} onSubmit={sendEmail}>
@@ -141,8 +146,15 @@ const Contact = () => {
           <ContactInput placeholder="Your Email" name="from_email" required />
           <ContactInput placeholder="Your Name" name="from_name" required />
           <ContactInput placeholder="Subject" name="subject" required />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} required />
-          <ContactButton type="submit" value="Send" />
+          <ContactInputMessage
+            placeholder="Message"
+            name="message"
+            rows={4}
+            required
+          />
+          <ContactButton type="submit" disabled={isLoading}>
+            {isLoading ? "Sending..." : "Send"}
+          </ContactButton>
         </ContactForm>
       </Wrapper>
     </Container>

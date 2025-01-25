@@ -10,8 +10,8 @@ import {
   headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
-} 
-from "../../utils/motion";
+}
+  from "../../utils/motion";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -220,7 +220,7 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-          
+
           <HeroBgAnimation />
         </HeroBg>
 

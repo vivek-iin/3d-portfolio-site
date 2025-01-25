@@ -23,7 +23,7 @@ const Body = styled.div`
 `;
 const Role = styled.div`
   font-size: 18px;
-  font-weight: 600px;
+  font-weight: 600;
   color: ${({ theme }) => theme.text_primary + 99};
   @media only screen and (max-width: 768px) {
     font-size: 14px;
@@ -31,7 +31,7 @@ const Role = styled.div`
 `;
 const Company = styled.div`
   font-size: 14px;
-  font-weight: 500px;
+  font-weight: 500;
   color: ${({ theme }) => theme.text_secondary + 99};
   @media only screen and (max-width: 768px) {
     font-size: 12px;
@@ -39,7 +39,7 @@ const Company = styled.div`
 `;
 const Date = styled.div`
   font-size: 12px;
-  font-weight: 400px;
+  font-weight: 400;
   color: ${({ theme }) => theme.text_secondary + 80};
 
   @media only screen and (max-width: 768px) {
@@ -128,7 +128,7 @@ const ExperienceCard = ({ experience }) => {
               <b>Skills</b>
               <ItemWrapper>
                 {experience?.skills?.map((skill, index) => (
-                  <Skill>• {skill}</Skill>
+                  <Skill key={index}>• {skill}</Skill>
                 ))}
               </ItemWrapper>
             </Skills>

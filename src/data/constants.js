@@ -12,7 +12,7 @@ export const Bio = {
       "https://vivek-resume-portfolio.netlify.app/",
     linkedin: "https://www.linkedin.com/in/vivek-yadav-2a0883241/",
   
-    insta: "https://www.instagram.com/vivek_iin?igsh=YzljYTk1ODg3Zg==",
+    insta: "https://www.instagram.com/yk.vivekk?igsh=YzljYTk1ODg3Zg==",
   };
   
   export const skills = [
@@ -24,21 +24,21 @@ export const Bio = {
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
-        {
-          name: "Redux",
-          image:
-            "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        },
+        // {
+        //   name: "Redux",
+        //   image:
+        //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        // },
         {
           name: "Next Js",
           image:
             "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
         },
-        {
-          name: "Angular Js",
-          image:
-            "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
-        },
+        // {
+        //   name: "Angular Js",
+        //   image:
+        //     "https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667",
+        // },
         {
           name: "HTML",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -63,11 +63,11 @@ export const Bio = {
           image:
             "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
         },
-        {
-          name: "Flutter",
-          image:
-            "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
-        },
+        // {
+        //   name: "Flutter",
+        //   image:
+        //     "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+        // },
       ],
     },
     
@@ -88,21 +88,21 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         },
-        {
-          name: "Flask",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
-        },
-        {
-          name: "Django",
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
-        },
-        {
-          name: "MySQL",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        },
+        // {
+        //   name: "Flask",
+        //   image:
+        //     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1280px-Flask_logo.svg.png",
+        // },
+        // {
+        //   name: "Django",
+        //   image:
+        //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFFyY16N5NRhzoG24RqB7x8Ok2t8Bdgs-tuMsOBXS2Q&s",
+        // },
+        // {
+        //   name: "MySQL",
+        //   image:
+        //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        // },
        
         {
           name: "MongoDB",
@@ -115,32 +115,32 @@ export const Bio = {
         },
       ],
     },
-    {
-      title: "DevOps",
-      skills: [
-        {
-          name: "AWS",
-          image:
-            "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
-        },
-        {
-          name: "Google Cloud",
-          image:
-            "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
-        },
-        {
-          name: "Docker",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-        },
+    // {
+    //   title: "DevOps",
+    //   skills: [
+    //     {
+    //       name: "AWS",
+    //       image:
+    //         "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+    //     },
+    //     {
+    //       name: "Google Cloud",
+    //       image:
+    //         "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+    //     },
+    //     {
+    //       name: "Docker",
+    //       image:
+    //         "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+    //     },
        
-        {
-          name: "Nginx",
-          image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
-        },
+    //     {
+    //       name: "Nginx",
+    //       image: "https://download.logo.wine/logo/Nginx/Nginx-Logo.wine.png",
+    //     },
        
-      ],
-     },
+    //   ],
+    //  },
     
 
     {
@@ -151,8 +151,22 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
         },
+        {
+          name: "Pandas",
+          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg",
+        },
+        {
+          name: "Matplotlib",
+          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/matplotlib/matplotlib-original.svg",
+        },
+        {
+          name: "NumPy",
+          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg",
+        },
+        
       ],
     },
+    
     {
       title: "Others",
       skills: [
@@ -210,28 +224,28 @@ export const Bio = {
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
     },
-    {
-      id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "DevOps & Fullstack Engineering ",
-      company: "Remote Job",
-      date: "Aug 2023 - Oct 2023",
-      desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
-      skills: [
-        "JavaScript",
-        "TypeScript",
-        "Node Js",
-        " Next Js",
-      ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
-    },
+    // {
+    //   id: 1,
+    //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    //   role: "Fullstack Engineering ",
+    //   company: "Remote Job",
+    //   date: "Aug 2023 - Oct 2023",
+    //   desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
+    //   skills: [
+    //     "JavaScript",
+    //     "TypeScript",
+    //     "Node Js",
+    //     " Next Js",
+    //   ],
+    //   doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+    // },
    
     {
       id: 2,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "Fullstack ",
+      role: "Fullstack Engineering",
       company: "Remote Job",
-      date: "June 2023 - July 2023",
+      date: "June 2023 - Present",
       desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
       skills: [
         "ReactJS",
@@ -253,7 +267,7 @@ export const Bio = {
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
       role: "Open Source Contributor ",
       company: "GirlScript Summer of Code",
-      date: "May 2023 - Present",
+      date: "May 2024 - Present",
       desc: "Contributed to different open-source projects and learn from industry experts",
     },
   ];
@@ -263,27 +277,27 @@ export const Bio = {
       id: 0,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
       school: "Indira Gandhi National Tribal University, Amarkantak , Madhya Pradesh",
-      date: "Oct 2023 - Sep 2025",
+      date: "Oct 2023 - Sep 2026",
       
       desc: "I am currently pursuing a Bachelor's degree in Computer Science at Indira Gandhi National Tribal University, Amarkantak , Madhya Pradesh.  I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others , where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Computer Applications - BCA, Computer Science",
+      degree: "Bachelor of Computer Applications(BCA)",
     },
     {
       id: 1,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
       school: "Harihar Singh Academy, Varanasi, Uttar Pradesh",
-      date: "Apr 2020 - Apr 2022",
+      date: "Apr 2020 - March 2022",
       
-      desc: "I completed my class 12 high school education at Harihar Singh Academy, Varanasi, Uttar Pradesh where I studied Science with Computer Science.",
-      degree: "CBSE(XII), Science with Computer",
+      desc: "I completed my class 12 high school education at Harihar Singh Academy, Varanasi, Uttar Pradesh where I studied Physics, Maths ,Chemistry, English, Hindi .",
+      degree: "CBSE(XII), Science",
     },
     {
       id: 2,
       img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Navneeta Kunwar Public School , Varanasi",
-      date: "Apr 2019 - Apr 2020",
+      school: "Navneeta Kunwar Public School , Varanasi, Uttar Pradesh",
+      date: "Apr 2019 - March 2020",
     
-      desc: "I completed my class 10 education at Public, Varanasi, where I studied Science with Computer Application.",
+      desc: "I completed my class 10 education at Navneeta Kunwar Public School, Varanasi, where I studied Physics, Maths ,Chemistry, English, Hindi ",
       degree: "CBSE(X), Science with Computer",
     },
   ];
