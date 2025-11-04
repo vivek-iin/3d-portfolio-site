@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
 import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -10,8 +9,10 @@ import {
   headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
-}
-  from "../../utils/motion";
+} from "../../utils/motion";
+
+const HeroImg =
+  "https://media.tenor.com/trwMzHIDQlQAAAAj/hack-hacking.gif";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -30,6 +31,7 @@ const HeroContainer = styled.div`
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
+
 const HeroInnerContainer = styled.div`
   position: relative;
   display: flex;
@@ -42,9 +44,11 @@ const HeroInnerContainer = styled.div`
     flex-direction: column;
   }
 `;
+
 const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -54,17 +58,19 @@ const HeroLeftContainer = styled.div`
     align-items: center;
   }
 `;
+
 const HeroRightContainer = styled.div`
   width: 100%;
   order: 2;
   display: flex;
   justify-content: end;
+
   @media (max-width: 960px) {
     order: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-contents: center;
+    justify-content: center;
     margin-bottom: 80px;
   }
 
@@ -135,55 +141,51 @@ const ResumeButton = styled.a`
   -moz-appearance: button;
   appearance: button;
   text-decoration: none;
-
   width: 95%;
   max-width: 300px;
   text-align: center;
   padding: 16px 0;
-
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
+  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
   box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
   border-radius: 50px;
   font-weight: 600;
   font-size: 20px;
+  color: white;
+  transition: all 0.4s ease-in-out;
 
-     &:hover {
-        transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
-    }    
-    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
-    color: white;
+  &:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
 `;
 
-const Img = styled.img`
+// 🌟 Animated floating GIF image
+const AnimatedHeroImage = styled.img`
   border-radius: 50%;
   width: 100%;
   height: 100%;
   max-width: 400px;
   max-height: 400px;
   border: 2px solid ${({ theme }) => theme.primary};
+  object-fit: cover;
+  animation: float 3s ease-in-out infinite;
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
   @media (max-width: 640px) {
     max-width: 280px;
@@ -206,12 +208,11 @@ const HeroBg = styled.div`
   padding: 0 30px;
   top: 50%;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 
   @media (max-width: 960px) {
     justify-content: center;
-    padding: 0 0px;
+    padding: 0;
   }
 `;
 
@@ -220,7 +221,6 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-
           <HeroBgAnimation />
         </HeroBg>
 
@@ -232,7 +232,7 @@ const Hero = () => {
                   Hi, I am <br /> {Bio.name}
                 </Title>
                 <TextLoop>
-                  I am a
+                  I am a{" "}
                   <Span>
                     <Typewriter
                       options={{
@@ -253,10 +253,11 @@ const Hero = () => {
                 Check Resume
               </ResumeButton>
             </HeroLeftContainer>
+
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Vivek Yadav" />
+                  <AnimatedHeroImage src={HeroImg} alt="Vivek Yadav" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>

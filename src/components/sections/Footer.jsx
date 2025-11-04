@@ -99,9 +99,7 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedIn />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <Instagram />
-          </SocialMediaIcon>
+        
         </SocialMediaIcons>
         <Copyright>&copy; 2024 Vivek Yadav. All rights reserved.</Copyright>
       </FooterWrapper>

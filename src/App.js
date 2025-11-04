@@ -41,11 +41,11 @@ function App() {
         <Body>
           <div>
             <Hero />
-            <Wrapper>
-              <Skills />
-              <Experience />
-            </Wrapper>
             <Projects />
+            <Wrapper>
+              <Experience />
+              <Skills />
+            </Wrapper>
             <Wrapper>
               <Education />
               <Contact />
