@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import {
   GitHub,
-  Instagram,
   LinkedIn,
 } from "@mui/icons-material";
 
